@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>De opacidad, difuminado y otras cuestiones estéticas</h1>
+    <div class="squareAll">
+        <input type="button" value="Mostrar código">
+        <input type="button" value="Borrar código">
+        <div class="cuadro"></div>
+    </div>
+    <div class="all">
+        <input type="color" id="color">
+        <div class="backdrop">
+           <p>Difuminado</p>
+           <input type="range" id="blur" min="0" max="10">
+           <p>Opacidad</p>
+           <input type="range" id="opacity" min="0" max="100">
+           <p>Saturación</p>
+           <input type="range" id="saturate" min="0" max="100">
+           <p>Contraste</p>
+           <input type="range" id="contrast" min="0" max="100">
+        </div>
+    <br>
+        <div class="tamaño">
+           <div class="row">
+              <p>Ancho</p>
+              <input type="range" id="width" min="0" max="500">
+           </div>
+           <div class="row">
+              <p>Altura</p>
+              <input type="range" id="height" min="0" max="500">
+           </div>
+        </div>
+        <br>
+        <div class="border">
+           <p>Borde</p>
+           <input type="range" id="border" min="0" max="50">
+       </div>
+    </div>
+    <div class="code"></div>
+</body>
+<script src="index.js"></script>
+</html>

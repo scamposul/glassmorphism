@@ -1,0 +1,32 @@
+html {
+    font-size: 62.5%;
+    background-image: url('monte.jpg');
+}
+
+.cuadro {
+  width: 20rem;
+  height: 20rem;
+  color: white;
+}
+
+
+.backdrop {
+    display: flex;
+    flex-direction: row;
+}
+
+.size {
+    display: flex;
+    flex-direction: row;
+}
+
+.border {
+    display: flex;
+    flex-direction: row;
+}
+.code {
+    background: rgba(255, 255, 255, 0.5);
+    width: 50rem;
+    height: 5rem;
+    color: black;
+}
